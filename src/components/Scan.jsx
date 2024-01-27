@@ -6,8 +6,6 @@ const Scan = () => {
   const [dataUri, setDataUri] = useState(null);
 
   const handleTakePhoto = (dataUri) => {
-    // Handle the captured photo data
-    console.log('Photo captured!', dataUri);
     setDataUri(dataUri);
   };
 
@@ -19,10 +17,11 @@ const Scan = () => {
           <h3 className="warning">Please make sure your image is centered</h3>
         </div>
       ) : (
+        // Camera options
         <Camera
           onTakePhoto={(dataUri) => handleTakePhoto(dataUri)}
           idealFacingMode={FACING_MODES.ENVIRONMENT}
-          idealResolution={{ width: 640, height: 480 }}
+          idealResolution={{ width: 600, height: 500 }}
           imageType={IMAGE_TYPES.JPG}
           imageCompression={0.97}
           isMaxResolution={true}
