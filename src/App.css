@@ -34,11 +34,11 @@ body{
 .scanBtn{
     margin-top: 25px;
     width: 200px;
-    height: 30px;
+    height: 40px;
     cursor: pointer;
     border: 1px solid #2D3250;
     background-color: #2D3250;
-    border-radius: 5px;
+    border-radius: 2px;
     color: white;
     font-weight: bold;
     font-size: 1rem;
@@ -64,4 +64,21 @@ body{
     font-size: 1rem;
     margin-top: 100px;
     color: red;
+}
+
+/* RESULTS PAGE STYLING */
+.resultsDiv{
+    display: grid;
+    place-items: center;
+}
+
+.results-images{
+    display: grid;
+    row-gap: 40px;
+    margin-top: 60px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
 }
