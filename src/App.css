@@ -61,9 +61,10 @@ body{
 }
 
 .warning{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 100px;
     color: red;
+    text-align: center;
 }
 
 /* RESULTS PAGE STYLING */
