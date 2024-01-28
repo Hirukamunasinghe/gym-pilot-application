@@ -83,3 +83,102 @@ body{
     width: 300px;
     height: 300px;
 }
+
+/* EQUIPMENT PAGE STYLING */
+.cards-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+    column-gap: 100px;
+    margin-top: 50px;
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    background-color: black;
+}
+
+.e-heading{
+    text-align: center;
+}
+
+.eqimage{
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+    
+}
+
+.eqimage:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+/* PROGRESS VISUALIZATION STYLING */
+.progress-card-div{
+    display: grid;
+    place-items: center;
+    row-gap: 50px;
+    margin-top: 80px;
+}
+
+.prog-card{
+    width: 290px;
+    height: 200px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+}
+
+.prog-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.proimage{
+    height: 200px;
+    width: 150px;
+}
+
+.propara{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.proheading{
+    text-align: center;
+}
+
+/* FINAL PAGE STYLING */
+.final-pg-div{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.des{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.bodyimage{
+    width: 270px;
+    height: 320px;
+    margin-top: 80px;
+}
+
+.finalbtn{
+    margin-top: 90px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #2D3250;
+    background-color: #2D3250;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}

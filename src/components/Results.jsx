@@ -14,7 +14,9 @@ const Results =() =>{
             <Link to="/scan">
             <button className="scanBtn">RESCAN</button>
             </Link>
+            <Link to="/equip">
             <button className="scanBtn eqbtn">EQUIPMENT PAGE</button>
+            </Link>
         </div>
     )
 }
