@@ -19,12 +19,12 @@ body{
 }
 
 .logo{
-    height: 300px;
+    height: 250px;
 }
 
 .imgScanner{
-    width: 310px;
-    height: 450px;
+    width: 250px;
+    height: 350px;
     background-color: gray;
     margin: auto;
     border: 1px solid black;
@@ -32,7 +32,7 @@ body{
 }
 
 .scanBtn{
-    margin-top: 25px;
+    margin-top: 30px;
     width: 200px;
     height: 40px;
     cursor: pointer;
