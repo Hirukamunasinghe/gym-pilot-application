@@ -10,6 +10,7 @@ import Equip from './components/Equip';
 import Progress from './components/Progress';
 import Final from './components/Final';
 
+// App function
 function App() {
   const [count, setCount] = useState(0);
 
