@@ -12,45 +12,45 @@ import { Link } from "react-router-dom";
 const Equip = () => {
   return (
     <div className="eq-div">
-        <h1 className="e-heading">Equipment</h1>
+        <h1 className="e-heading text-3xl font-bold text-black">Select Equipment</h1>
       <div className="cards-div">
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqone} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqtwo} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqthree} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqfour} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqfive} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqsix} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqseven} className="eqimage" alt=""/>
             </Link>
         </div>
         <div className="card">
-            <Link to="/progress">
+            <Link to="/scan">
             <img src={eqeight} className="eqimage" alt=""/>
             </Link>
         </div>

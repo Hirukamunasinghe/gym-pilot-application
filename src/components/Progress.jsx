@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Progress = () =>{
     return(
         <div className="progressDiv">
-            <h1 className="proheading">PROGRESS VISUALIZATION</h1>
+            <h1 className="proheading text-3xl font-bold text-black">PROGRESS VISUALIZATION</h1>
             <div className="progress-card-div">
                 <div className="prog-card">
                     <Link to="/final">

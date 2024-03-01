@@ -6,7 +6,7 @@ import body from './fresult.png'
 const Final = () =>{
     return(
         <div className="final-pg-div">
-            <h1>VISUALIZATION RESULTS</h1>
+            <h1 className="text-3xl font-bold text-black">VISUALIZATION RESULTS</h1>
             <h3 className="des">This visualized AI Avatar displays how your body will<br/> be in a couple of months<br/> if you have completed<br/> this exercise accurately</h3>
             <img src={body} className="bodyimage" alt=""/>
             <Link to="/">
