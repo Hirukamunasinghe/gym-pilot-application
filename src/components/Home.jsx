@@ -8,11 +8,17 @@ const Home = () => {
     return (
         <div className="homeDiv grid">
             <img className="logo" src={logo} alt="" />
-            <div className="imgScanner"></div>
-            <Link to="/equip">
+            {/* <div className="imgScanner"></div> */}
+            <br/>
+            <Link to="/scan">
                 <button className="scanBtn text-white">Scan</button>
             </Link>
+           
+         
+
+
         </div>
+        
     )
 }
 

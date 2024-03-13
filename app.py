@@ -4,8 +4,8 @@ from tensorflow.keras.models import  load_model
 import streamlit as st
 import numpy as np 
 
-st.header('Image Classifica')
-model = load_model('C:\Users\Asus\Image_classify.keras')
+st.header('Image Classification')
+model = load_model('D:\gym pilot\gym-pilot-application\Image_classify.keras')
 data_cat = ['zArmCurlMuchine',
  'zHipAbduction',
  'zLegExtension',
