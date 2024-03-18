@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Scan from './components/Scan';
 import Results from './components/Results';
 import Equip from './components/Equip';
+import Workout from './components/Workout';
 // import Progress from './components/Progress';
 // import Final from './components/Final';
 
@@ -26,7 +27,7 @@ function App() {
             path='/results' element={<Results />}
           />
           <Route
-            path='/equip' element={<Equip />}
+            path='/workout' element={<Workout />}
           />
           {/* <Route
             path='/progress' element={<Progress />}

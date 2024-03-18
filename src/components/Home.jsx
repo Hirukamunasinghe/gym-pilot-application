@@ -13,6 +13,9 @@ const Home = () => {
             <Link to="/scan">
                 <button className="scanBtn text-white">Scan</button>
             </Link>
+            <Link to="/workout">
+                <button className="scanBtn text-white">Home Workout</button>
+            </Link>
            
          
 
