@@ -5,6 +5,7 @@
   "homepage": "https://Hirukamunasinghe.github.io/gym-pilot-application/",
   "type": "module",
   "scripts": {
+    "start": "set BROWSER=chrome&& react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
