@@ -16,8 +16,9 @@ const Home = () => {
             <Link to="/workout">
                 <button className="scanBtn text-white">Home Workout</button>
             </Link>
-            
+    
         </div>
+        
     )
 }
 
