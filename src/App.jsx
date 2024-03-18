@@ -6,7 +6,7 @@ import './App.css';
 import Home from './components/Home';
 import Scan from './components/Scan';
 import Results from './components/Results';
-import Equip from './components/Equip';
+// import Equip from './components/Equip';
 // import Progress from './components/Progress';
 // import Final from './components/Final';
 
@@ -25,9 +25,9 @@ function App() {
           <Route
             path='/results' element={<Results />}
           />
-          <Route
-            path='/equip' element={<Equip />}
-          />
+          {/* <Route
+            path='/workout' element={<Workout />}
+          /> */}
           {/* <Route
             path='/progress' element={<Progress />}
           /> */}
@@ -41,3 +41,9 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
