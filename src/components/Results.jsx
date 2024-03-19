@@ -7,7 +7,7 @@ import { DropdownList } from 'react-widgets';
 
 const Results =() =>{
     return(
-        <div className="resultsDiv">
+        <div className="resultsDiv" id="finalresult">
             <h1 className="text-3xl font-bold text-black ">IDENTIFIED RESULTS</h1>
             
             <div className="results-images">

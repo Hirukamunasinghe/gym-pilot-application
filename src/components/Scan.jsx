@@ -14,10 +14,10 @@ const Scan = () => {
     <div className="scanDiv">
       {dataUri ? (
         <div className="scanDiv">
-          <img src={dataUri} alt="Scanned Image" className="scanImage" />
+          <img src={dataUri} alt="Scanned Image" className="scanImage" id="scanimage"/>
           <h3 className="text-1xl my-10 text-red-400 font-bold text-md">Please make sure your image is centered</h3>
           <Link to="/results">
-          <button className="scanBtn text-white">Results</button>
+          <button className="scanBtn text-white" id="Results">Results</button>
           </Link>
         </div>
       ) : (
