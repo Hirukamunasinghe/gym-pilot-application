@@ -1,0 +1,13 @@
+0 zsp
+1 zsmith_machine
+2 zpower_leg_press
+3 zpd
+4 zLyingLegCurl
+5 zLegExtension
+6 zHipAbduction
+7 zdown
+8 zchest_press
+9 zcd
+10 zcable-machine
+11 zback_extension
+12 zArmCurlMuchine
