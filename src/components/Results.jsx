@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import lifttwo from './lifttwo.jpg';
 import exone from './ex1.gif';
 import { Link } from "react-router-dom";
-import { DropdownList } from 'react-widgets';
 
 const Results =() =>{
     return(
@@ -17,6 +16,10 @@ const Results =() =>{
             <Link to="/scan">
             <button className="scanBtn text-white">RESCAN</button>
             </Link>
+            <Link to="/">
+            <button className="scanBtn text-white">HOME</button>
+            </Link>
+
         </div>
     )
 }

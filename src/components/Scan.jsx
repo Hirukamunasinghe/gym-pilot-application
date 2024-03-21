@@ -10,6 +10,8 @@ const Scan = () => {
     setDataUri(dataUri);
   };
 
+  
+
   return (
     <div className="scanDiv">
       {dataUri ? (
