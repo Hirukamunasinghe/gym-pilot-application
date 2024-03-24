@@ -3,7 +3,7 @@ import React, { useState } from "react"; //importing React and usestate hook
 import lifttwo from './lifttwo.jpg';//importing another image files 
 import { Link } from "react-router-dom";//importing link component from react-router-dom
 //importing drop downlist component from react widjets
-const Results =() =>{ 
+const Results =() =>{ //declaring a functional component named results
     return(  
         <div className="resultsDiv">
             <h1 className="text-3xl font-bold text-black ">IDENTIFIED RESULTS</h1>
