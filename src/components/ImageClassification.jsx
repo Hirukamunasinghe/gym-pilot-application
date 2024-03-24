@@ -24,7 +24,7 @@ const ImageClassification = () => {
       });
       setResult(response.data);// Setting the classification result received from the server
     } catch (error) {
-      console.error('Error:', error);
+      console.error('Error:', error);// Logging any errors that occur during the request
     } finally {
       setLoading(false);
     }
