@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import body from './fresult.png'
+import body from './fresult.png' // Importing image for body visualization
 
 // Functional component for the Final page
 const Final = () =>{
