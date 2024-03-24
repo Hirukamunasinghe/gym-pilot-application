@@ -9,7 +9,7 @@ const Rescan = () => {
     const handleRescan = () => {
       navigate('/scan');// Navigating to the '/scan' route
     };
-  
+     // Rendering the component
     return (
       <div className="rescanDiv">
         <p>This is not a gym equipment.</p>
@@ -18,4 +18,4 @@ const Rescan = () => {
     );
   };
 
-export default Rescan;
+export default Rescan;// Exporting the component for use in other files
