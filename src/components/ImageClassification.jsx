@@ -19,7 +19,7 @@ const ImageClassification = () => {
       // Sending a POST request to the classification endpoint with the FormData containing the image
       const response = await axios.post('http://localhost:8501/classify', formData, {
         headers: {
-          'Content-Type': 'multipart/form-data'
+          'Content-Type': 'multipart/form-data' // Setting headers for the request
         }
       });
       setResult(response.data);
