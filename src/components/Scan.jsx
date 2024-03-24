@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
-import 'react-html5-camera-photo/build/css/index.css';
-import { Link } from "react-router-dom";
+import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo'; // Importing the Camera component from react-html5-camera-photo library
+import 'react-html5-camera-photo/build/css/index.css';// Importing the CSS for the Camera component
+import { Link } from "react-router-dom";// Importing the Link component from react-router-dom library
 
 const Scan = () => {
-  const [dataUri, setDataUri] = useState(null);
+  const [dataUri, setDataUri] = useState(null);// Using the useState hook to create a state variable dataUri and a function setDataUri to update it
 
-  const handleTakePhoto = (dataUri) => {
-    setDataUri(dataUri);
+
+  const handleTakePhoto = (dataUri) => { // Defining a function handleTakePhoto that takes a dataUri parameter
+    setDataUri(dataUri); // Setting the dataUri state variable to the provided dataUri
   };
 
   
-
+// The component returns JSX code to render
   return (
     <div className="scanDiv">
       {dataUri ? (
@@ -36,8 +37,8 @@ const Scan = () => {
           isDisplayStartCameraError={true}
         />
       )}
-    </div>
-  );
+    </div>{/* End of the JSX div element */}
+  ); // End of the JSX return statement
 };
 
-export default Scan;
+export default Scan; // Exporting the Scan component as default

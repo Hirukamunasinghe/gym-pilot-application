@@ -1,11 +1,11 @@
-import React from "react";
-import {Link} from "react-router-dom";
-import w1 from './push1.jpg';
+import React from "react";//importing the react library
+import {Link} from "react-router-dom";//importing the link component from react-router-dom
+import w1 from './push1.jpg'; //importing image files
 import w2 from './push2.jpg';
 import w3 from './w3.jpg';
 import w4 from './push3.jpg';
 
-const Workout =() =>{
+const Workout =() =>{ //declaring a functional component named workout
     return(
         <div>
             <h1 className="text-4xl font-bold text-red-700 text-center">HOME WORKOUT</h1>
@@ -27,5 +27,5 @@ const Workout =() =>{
     )
 }
 
-export default Workout;
+export default Workout; //exporting the workout component as default
 

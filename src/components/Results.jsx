@@ -7,8 +7,15 @@ import { Link } from "react-router-dom";
 const Results =() =>{
     return(
         <div className="resultsDiv" id="finalresult">
+import React, { useState } from "react"; //importing React and usestate hook
+//import liftone from './liftone.jpg'; 
+import lifttwo from './lifttwo.jpg';//importing another image files 
+import { Link } from "react-router-dom";//importing link component from react-router-dom
+//importing drop downlist component from react widjets
+const Results =() =>{ //declaring a functional component named results
+    return( //returning jsx to render ui 
+        <div className="resultsDiv">
             <h1 className="text-3xl font-bold text-black ">IDENTIFIED RESULTS</h1>
-            
             <div className="results-images">
                 <img className="image cursor-pointer h-72 w-72" src={exone} alt=""/>
                 <img className="image cursor-pointer h-72 w-72" src={lifttwo} alt=""/>
@@ -24,4 +31,4 @@ const Results =() =>{
     )
 }
 
-export default Results;
+export default Results;//exporting results component
