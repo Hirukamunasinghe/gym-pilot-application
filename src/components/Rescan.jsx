@@ -4,10 +4,10 @@ import { useNavigate } from 'react-router-dom';// Importing useNavigate hook fro
 
 // Functional component for the Rescan page
 const Rescan = () => {
-    const navigate = useNavigate();
-  
+    const navigate = useNavigate();// Initializing the useNavigate hook to navigate between routes
+    // Function to handle rescan button click
     const handleRescan = () => {
-      navigate('/scan');
+      navigate('/scan');// Navigating to the '/scan' route
     };
   
     return (
