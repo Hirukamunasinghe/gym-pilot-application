@@ -1,6 +1,8 @@
+// Importing necessary modules from React Router
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';// Importing useNavigate hook from React Router
 
+// Functional component for the Rescan page
 const Rescan = () => {
     const navigate = useNavigate();
   
