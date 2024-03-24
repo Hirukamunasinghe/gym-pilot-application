@@ -8,7 +8,7 @@ const Scan = () => {
 
 
   const handleTakePhoto = (dataUri) => { // Defining a function handleTakePhoto that takes a dataUri parameter
-    setDataUri(dataUri);
+    setDataUri(dataUri); // Setting the dataUri state variable to the provided dataUri
   };
 
   
