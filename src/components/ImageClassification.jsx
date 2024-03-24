@@ -30,6 +30,7 @@ const ImageClassification = () => {
     }
   };
 
+  // Rendering the component
   return (
     <div>
       <h1>Image Classification</h1>
