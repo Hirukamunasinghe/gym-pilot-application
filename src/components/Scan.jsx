@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
+import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo'; // Importing the Camera component from react-html5-camera-photo library
 import 'react-html5-camera-photo/build/css/index.css';
 import { Link } from "react-router-dom";
 
