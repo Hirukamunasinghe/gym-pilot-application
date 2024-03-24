@@ -4,7 +4,8 @@ import 'react-html5-camera-photo/build/css/index.css';// Importing the CSS for t
 import { Link } from "react-router-dom";// Importing the Link component from react-router-dom library
 
 const Scan = () => {
-  const [dataUri, setDataUri] = useState(null);
+  const [dataUri, setDataUri] = useState(null);// Using the useState hook to create a state variable dataUri and a function setDataUri to update it
+
 
   const handleTakePhoto = (dataUri) => {
     setDataUri(dataUri);
