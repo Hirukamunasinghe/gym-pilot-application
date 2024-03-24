@@ -21,4 +21,4 @@ const Home = () => {
         
     )
 }
-export default Home;
+export default Home; // Exporting the component for use in other files
