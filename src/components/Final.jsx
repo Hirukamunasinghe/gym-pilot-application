@@ -1,3 +1,5 @@
+// Importing necessary modules from React and React Router
+
 import React from "react";
 import { Link } from "react-router-dom"; // Importing Link component from React Router
 import body from './fresult.png' // Importing image for body visualization
