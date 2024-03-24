@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo'; // Importing the Camera component from react-html5-camera-photo library
 import 'react-html5-camera-photo/build/css/index.css';// Importing the CSS for the Camera component
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";// Importing the Link component from react-router-dom library
 
 const Scan = () => {
   const [dataUri, setDataUri] = useState(null);
