@@ -48,4 +48,4 @@ const ImageClassification = () => {
   );
 };
 
-export default ImageClassification;
+export default ImageClassification;  // Exporting the component for use in other files
