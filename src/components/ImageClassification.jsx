@@ -26,7 +26,7 @@ const ImageClassification = () => {
     } catch (error) {
       console.error('Error:', error);// Logging any errors that occur during the request
     } finally {
-      setLoading(false);
+      setLoading(false);// Setting loading status back to false after request completion (success or error)
     }
   };
 
