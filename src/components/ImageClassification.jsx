@@ -12,10 +12,11 @@ const ImageClassification = () => {
   const handleImageUpload = async () => {
     // Creating a new FormData object to store the image
     const formData = new FormData();
-    formData.append('image', image);
+    formData.append('image', image);// Appending the uploaded image to the FormData object
 
     try {
       setLoading(true);
+      // Sending a POST request to the classification endpoint with the FormData containing the image
       const response = await axios.post('http://localhost:8501/classify', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
