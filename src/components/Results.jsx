@@ -22,4 +22,4 @@ const Results =() =>{ //declaring a functional component named results
     )
 }
 
-export default Results; 
+export default Results;//exporting results component
