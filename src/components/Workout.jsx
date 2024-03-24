@@ -1,6 +1,6 @@
 import React from "react";//importing the react library
-import {Link} from "react-router-dom"; 
-import w1 from './push1.jpg'; 
+import {Link} from "react-router-dom";//importing the link component from react-router-dom
+import w1 from './push1.jpg'; //importing image files
 import w2 from './push2.jpg';
 import w3 from './w3.jpg';
 import w4 from './push3.jpg';
