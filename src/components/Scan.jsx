@@ -38,7 +38,7 @@ const Scan = () => {
         />
       )}
     </div>{/* End of the JSX div element */}
-  );
+  ); // End of the JSX return statement
 };
 
 export default Scan;
