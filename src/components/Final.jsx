@@ -16,4 +16,4 @@ const Final = () =>{
     )
 }
 
-export default Final;
+export default Final; // Exporting the component for use in other files
