@@ -7,7 +7,7 @@ const Scan = () => {
   const [dataUri, setDataUri] = useState(null);// Using the useState hook to create a state variable dataUri and a function setDataUri to update it
 
 
-  const handleTakePhoto = (dataUri) => {
+  const handleTakePhoto = (dataUri) => { // Defining a function handleTakePhoto that takes a dataUri parameter
     setDataUri(dataUri);
   };
 
