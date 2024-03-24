@@ -41,4 +41,4 @@ const Scan = () => {
   ); // End of the JSX return statement
 };
 
-export default Scan;
+export default Scan; // Exporting the Scan component as default
