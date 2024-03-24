@@ -27,5 +27,5 @@ const Workout =() =>{ //declaring a functional component named workout
     )
 }
 
-export default Workout; 
+export default Workout; //exporting the workout component as default
 
