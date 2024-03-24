@@ -1,10 +1,10 @@
 // Home.jsx
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";// Importing Link component from React Router
 import logo from './logo.png';
 
 
-
+// Functional component for the Home page
 const Home = () => {
     return (
         <div className="homeDiv grid">
