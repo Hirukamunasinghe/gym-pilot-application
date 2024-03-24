@@ -22,7 +22,7 @@ const ImageClassification = () => {
           'Content-Type': 'multipart/form-data' // Setting headers for the request
         }
       });
-      setResult(response.data);
+      setResult(response.data);// Setting the classification result received from the server
     } catch (error) {
       console.error('Error:', error);
     } finally {
