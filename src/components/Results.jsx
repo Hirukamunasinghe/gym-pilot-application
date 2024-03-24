@@ -2,7 +2,7 @@ import React, { useState } from "react"; //importing React and usestate hook
 //import liftone from './liftone.jpg'; 
 import lifttwo from './lifttwo.jpg';//importing another image files 
 import { Link } from "react-router-dom";//importing link component from react-router-dom
-
+//importing drop downlist component from react widjets
 const Results =() =>{ 
     return(  
         <div className="resultsDiv">
