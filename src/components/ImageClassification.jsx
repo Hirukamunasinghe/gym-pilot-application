@@ -10,6 +10,7 @@ const ImageClassification = () => {
 
   // Function to handle image upload and classification
   const handleImageUpload = async () => {
+    // Creating a new FormData object to store the image
     const formData = new FormData();
     formData.append('image', image);
 
