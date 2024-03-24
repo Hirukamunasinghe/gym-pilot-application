@@ -5,7 +5,7 @@ import w2 from './push2.jpg';
 import w3 from './w3.jpg';
 import w4 from './push3.jpg';
 
-const Workout =() =>{ 
+const Workout =() =>{ //declaring a functional component named workout
     return(
         <div>
             <h1 className="text-4xl font-bold text-red-700 text-center">HOME WORKOUT</h1>
