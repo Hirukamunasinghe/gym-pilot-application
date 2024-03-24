@@ -6,8 +6,11 @@ import './App.css';
 import Home from './components/Home';
 import Scan from './components/Scan';
 import Results from './components/Results';
+// import Equip from './components/Equip';
 import Equip from './components/Equip';
 import Workout from './components/Workout';
+import WorkResults from './components/WorkResults';
+import Rescan from './components/Rescan';
 // import Progress from './components/Progress';
 // import Final from './components/Final';
 
@@ -29,9 +32,9 @@ function App() {
           <Route
             path='/workout' element={<Workout />}
           />
-          {/* <Route
-            path='/progress' element={<Progress />}
-          /> */}
+          {/* Define the route for WorkResults with parameter */}
+          <Route path="/workoutresult/:workoutId" element={<WorkResults />} 
+          />
           {/* <Route
             path='/final' element={<Final />}
           /> */}
@@ -42,3 +45,9 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+

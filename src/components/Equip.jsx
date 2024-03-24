@@ -9,6 +9,7 @@ import eqseven from './eq7.png';
 import eqeight from './eq8.png';
 import { Link } from "react-router-dom";
 
+
 const Equip = () => {
   return (
     <div className="eq-div">

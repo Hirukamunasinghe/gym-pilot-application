@@ -10,10 +10,18 @@ const Workout =() =>{
         <div>
             <h1 className="text-4xl font-bold text-red-700 text-center">HOME WORKOUT</h1>
             <div className="images-div grid grid-cols-1 gap-5 my-5">
-                <img className="image cursor-pointer h-72 w-72 lg:w-full"src={w1} />
+                <Link to="/workoutresult/3">
+                <img className="image cursor-pointer h-72 w-72 lg:w-full"src={w1} alt="Workout 1" />
+                </Link>
+                <Link to="/workoutresult/2">
                 <img className="image cursor-pointer h-72 w-72 lg:w-full" src={w2} />
+                </Link>
+                <Link to="/workoutresult/1">
                 <img className="image cursor-pointer h-72 w-72 lg:w-full" src={w3} />
+                </Link>
+                <Link to="/workoutresult/4">
                 <img className="image cursor-pointer h-72 w-72 lg:w-full" src={w4} />
+                </Link>
             </div>
         </div>
     )
