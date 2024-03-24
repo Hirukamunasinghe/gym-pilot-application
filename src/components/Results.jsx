@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import liftone from './liftone.jpg';
-import lifttwo from './lifttwo.jpg';
+import React, { useState } from "react"; //importing React and usestate hook
+import liftone from './liftone.jpg'; 
+import lifttwo from './lifttwo.jpg'; 
 import { Link } from "react-router-dom";
 import { DropdownList } from 'react-widgets';
 
-const Results =() =>{
-    return(
+const Results =() =>{ 
+    return(  
         <div className="resultsDiv">
             <h1 className="text-3xl font-bold text-black ">IDENTIFIED RESULTS</h1>
             
@@ -23,4 +23,4 @@ const Results =() =>{
     )
 }
 
-export default Results;
+export default Results; 
