@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import axios from 'axios';
 
+// Functional component for Image Classification
 const ImageClassification = () => {
+  // State variables for image, result, and loading status
   const [image, setImage] = useState('');
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  // Function to handle image upload and classification
   const handleImageUpload = async () => {
     const formData = new FormData();
     formData.append('image', image);
