@@ -12,7 +12,7 @@ const Scan = () => {
   };
 
   
-
+// The component returns JSX code to render
   return (
     <div className="scanDiv">
       {dataUri ? (
