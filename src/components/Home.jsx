@@ -1,6 +1,6 @@
 // Home.jsx
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";// Importing Link component from React Router
 import logo from './logo.png';
 
 
