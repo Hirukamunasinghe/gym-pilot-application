@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import liftone from './liftone.jpg';
-import lifttwo from './lifttwo.jpg';
+import lifttwo from './lifttwo.jpg'; 
 import exone from './ex1.gif';
 import { Link } from "react-router-dom";
 
