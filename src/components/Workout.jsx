@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";//importing the react library
 import {Link} from "react-router-dom"; 
 import w1 from './push1.jpg'; 
 import w2 from './push2.jpg';
