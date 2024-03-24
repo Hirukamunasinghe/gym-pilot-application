@@ -37,7 +37,7 @@ const Scan = () => {
           isDisplayStartCameraError={true}
         />
       )}
-    </div>
+    </div>{/* End of the JSX div element */}
   );
 };
 
